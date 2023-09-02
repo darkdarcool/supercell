@@ -1,0 +1,5 @@
+.vscode/*
+deno.lock
+.env
+.dev.env 
+npm/*

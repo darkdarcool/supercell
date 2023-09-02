@@ -1,0 +1,7 @@
+{
+  "tasks": {
+    "dev": "deno run --allow-net --allow-read=.env,.env.defaults,.env.example src/mod.ts",
+    "npm": "deno run --allow-all scripts/build_npm.ts",
+    "clean": "deno run --allow-all scripts/clean.ts"
+  }
+}
